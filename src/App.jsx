@@ -62,7 +62,7 @@ const App = () => {
             <input
               type="range"
               min={8}
-              max={10}
+              max={100}
               value={length}
               onChange={(e) => {
                 setLength(e.target.value);
